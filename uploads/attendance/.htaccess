@@ -1,0 +1,11 @@
+Options -Indexes
+<FilesMatch "\.(csv|xlsx|xls|dat)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Only allow access via PHP scripts
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule .* - [F,L]
+</IfModule>

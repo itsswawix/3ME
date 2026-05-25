@@ -1,0 +1,630 @@
+[2026-05-21 08:02:14] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-21 08:02:14] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-21 08:02:19] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-21 08:02:19] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-21 08:02:19] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-23 04:11:41] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-23 04:11:45] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-23 04:11:49] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-23 04:11:57] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-23 04:12:01] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-23 04:12:06] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-23 04:12:10] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-23 04:12:14] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-23 04:12:18] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:36:41] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:36:41] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.jobs' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 427,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(427): PDO->query('SELECT * FROM j...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:36:41] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.departments' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 323,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(323): PDO->query('SELECT d.*, c.n...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:36:49] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.jobs' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 427,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(427): PDO->query('SELECT * FROM j...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:36:49] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.departments' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 323,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(323): PDO->query('SELECT d.*, c.n...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:36:50] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:36:51] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.departments' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 323,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(323): PDO->query('SELECT d.*, c.n...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:36:51] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:36:51] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.jobs' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 427,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(427): PDO->query('SELECT * FROM j...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:36:51] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.departments' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 323,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(323): PDO->query('SELECT d.*, c.n...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:36:51] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:36:51] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.jobs' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 427,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(427): PDO->query('SELECT * FROM j...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:36:52] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:36:52] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.departments' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 323,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(323): PDO->query('SELECT d.*, c.n...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:36:52] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.jobs' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 427,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(427): PDO->query('SELECT * FROM j...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:36:54] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.jobs' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 427,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(427): PDO->query('SELECT * FROM j...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:36:54] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:36:54] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.departments' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 323,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(323): PDO->query('SELECT d.*, c.n...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:36:55] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.jobs' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 427,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(427): PDO->query('SELECT * FROM j...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:36:55] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:36:55] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.departments' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 323,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(323): PDO->query('SELECT d.*, c.n...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:36:55] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.jobs' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 427,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(427): PDO->query('SELECT * FROM j...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:36:55] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:36:55] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.departments' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 323,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(323): PDO->query('SELECT d.*, c.n...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:37:10] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.departments' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 323,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(323): PDO->query('SELECT d.*, c.n...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:37:10] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:37:10] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.jobs' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 427,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(427): PDO->query('SELECT * FROM j...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:37:12] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.jobs' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 427,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(427): PDO->query('SELECT * FROM j...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:37:12] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:37:12] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.departments' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 323,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(323): PDO->query('SELECT d.*, c.n...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:37:14] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.jobs' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 427,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(427): PDO->query('SELECT * FROM j...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:37:14] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:37:14] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.departments' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 323,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(323): PDO->query('SELECT d.*, c.n...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:37:14] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.jobs' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 427,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(427): PDO->query('SELECT * FROM j...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:37:14] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:37:14] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.departments' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 323,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(323): PDO->query('SELECT d.*, c.n...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:37:16] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.departments' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 323,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(323): PDO->query('SELECT d.*, c.n...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:37:16] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.jobs' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 427,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(427): PDO->query('SELECT * FROM j...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:37:16] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:37:19] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:37:20] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:38:37] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:38:37] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:38:40] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.departments' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 323,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(323): PDO->query('SELECT d.*, c.n...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:38:40] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.jobs' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 427,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(427): PDO->query('SELECT * FROM j...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:38:40] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:38:53] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:38:53] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.departments' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 323,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(323): PDO->query('SELECT d.*, c.n...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:38:53] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.jobs' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 427,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(427): PDO->query('SELECT * FROM j...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:38:54] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:38:54] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.departments' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 323,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(323): PDO->query('SELECT d.*, c.n...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:38:54] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.jobs' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 427,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(427): PDO->query('SELECT * FROM j...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:38:55] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:38:55] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.jobs' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 427,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(427): PDO->query('SELECT * FROM j...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:38:56] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.departments' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 323,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(323): PDO->query('SELECT d.*, c.n...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:38:56] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:38:56] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.jobs' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 427,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(427): PDO->query('SELECT * FROM j...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:38:56] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.departments' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 323,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(323): PDO->query('SELECT d.*, c.n...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:39:39] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.jobs' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 427,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(427): PDO->query('SELECT * FROM j...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:39:39] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:39:39] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.departments' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 323,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(323): PDO->query('SELECT d.*, c.n...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:45:03] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:45:07] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:45:12] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:47:13] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:47:13] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.departments' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 323,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(323): PDO->query('SELECT d.*, c.n...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:47:14] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.jobs' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 427,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(427): PDO->query('SELECT * FROM j...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:47:15] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.departments' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 323,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(323): PDO->query('SELECT d.*, c.n...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:47:15] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.jobs' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 427,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(427): PDO->query('SELECT * FROM j...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:47:15] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:47:17] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:47:17] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.jobs' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 427,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(427): PDO->query('SELECT * FROM j...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:47:17] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.departments' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 323,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(323): PDO->query('SELECT d.*, c.n...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:47:17] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.companies' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 224,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(224): PDO->query('SELECT * FROM c...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:47:17] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.jobs' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 427,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(427): PDO->query('SELECT * FROM j...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-25 09:47:17] [ERROR] SQLSTATE[42S02]: Base table or view not found: 1932 Table '3me_hr.departments' doesn't exist in engine
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php",
+    "line": 323,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(323): PDO->query('SELECT d.*, c.n...')\n#1 {main}"
+}
+--------------------------------------------------------------------------------

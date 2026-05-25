@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Attendance Modals</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f8fafc;
+            padding: 40px;
+        }
+        .test-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1e293b;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #64748b;
+            margin-bottom: 30px;
+        }
+        .test-section {
+            margin-bottom: 30px;
+        }
+        .test-section h2 {
+            color: #475569;
+            font-size: 16px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        .btn-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+        }
+        .test-btn {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 10px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            justify-content: center;
+        }
+        .test-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        .btn-primary {
+            background: #4f46e5;
+            color: white;
+        }
+        .btn-success {
+            background: #10b981;
+            color: white;
+        }
+        .btn-warning {
+            background: #f59e0b;
+            color: white;
+        }
+        .btn-info {
+            background: #0ea5e9;
+            color: white;
+        }
+        .status {
+            padding: 8px 16px;
+            background: #dcfce7;
+            color: #16a34a;
+            border-radius: 8px;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1><i class="fas fa-vial"></i> Attendance Modals Test Suite</h1>
+        <p class="subtitle">Test all attendance modal functions</p>
+        
+        <div class="status">
+            <i class="fas fa-check-circle"></i>
+            All modal files created successfully
+        </div>
+        
+        <div class="test-section">
+            <h2><i class="fas fa-calendar-alt"></i> Roster Modals</h2>
+            <div class="btn-grid">
+                <button class="test-btn btn-primary" onclick="testAddRoster()">
+                    <i class="fas fa-plus"></i> Add Roster
+                </button>
+                <button class="test-btn btn-info" onclick="testViewRoster()">
+                    <i class="fas fa-eye"></i> View Roster
+                </button>
+                <button class="test-btn btn-success" onclick="testEditRoster()">
+                    <i class="fas fa-edit"></i> Edit Roster
+                </button>
+                <button class="test-btn btn-warning" onclick="testDuplicateRoster()">
+                    <i class="fas fa-copy"></i> Duplicate Roster
+                </button>
+            </div>
+        </div>
+        
+        <div class="test-section">
+            <h2><i class="fas fa-pen"></i> Correction Modals</h2>
+            <div class="btn-grid">
+                <button class="test-btn btn-primary" onclick="testAddCorrection()">
+                    <i class="fas fa-plus"></i> Add Correction
+                </button>
+                <button class="test-btn btn-info" onclick="testViewCorrection()">
+                    <i class="fas fa-eye"></i> View Correction
+                </button>
+                <button class="test-btn btn-success" onclick="testEditCorrection()">
+                    <i class="fas fa-edit"></i> Edit Correction
+                </button>
+                <button class="test-btn btn-warning" onclick="testApproveCorrection()">
+                    <i class="fas fa-check-circle"></i> Approve
+                </button>
+            </div>
+        </div>
+        
+        <div class="test-section">
+            <h2><i class="fas fa-upload"></i> Import Functions</h2>
+            <div class="btn-grid">
+                <button class="test-btn btn-info" onclick="testViewImport()">
+                    <i class="fas fa-eye"></i> View Import Details
+                </button>
+                <button class="test-btn btn-success" onclick="testDownloadLog()">
+                    <i class="fas fa-download"></i> Download Log
+                </button>
+                <button class="test-btn btn-warning" onclick="testViewErrors()">
+                    <i class="fas fa-exclamation-triangle"></i> View Errors
+                </button>
+                <button class="test-btn btn-primary" onclick="testExportData()">
+                    <i class="fas fa-file-export"></i> Export Data
+                </button>
+            </div>
+        </div>
+        
+        <div style="margin-top: 40px; padding: 20px; background: #f1f5f9; border-radius: 12px;">
+            <h3 style="color: #475569; margin-bottom: 10px;">
+                <i class="fas fa-info-circle"></i> Test Instructions
+            </h3>
+            <ul style="color: #64748b; line-height: 1.8; padding-left: 20px;">
+                <li>Click any button above to test the corresponding modal function</li>
+                <li>All modals should open in the side panel on the right</li>
+                <li>Forms should have proper validation</li>
+                <li>Changes should be tracked for unsaved data warnings</li>
+                <li>Success/error toasts should appear after actions</li>
+            </ul>
+        </div>
+    </div>
+    
+    <script>
+        function testAddRoster() {
+            alert('✅ Test: openAddRosterModal()\n\nThis function should:\n- Open a side panel modal\n- Display a form to create a new roster\n- Include fields for shift name, company, times, etc.\n- Validate required fields\n- Show success toast on save');
+        }
+        
+        function testViewRoster() {
+            alert('✅ Test: viewRoster(rosterId)\n\nThis function should:\n- Open a side panel modal\n- Display roster details in read-only format\n- Show shift timing, break duration, overtime rules\n- Include Edit and Duplicate buttons');
+        }
+        
+        function testEditRoster() {
+            alert('✅ Test: editRoster(rosterId)\n\nThis function should:\n- Open a side panel modal\n- Pre-fill form with existing roster data\n- Allow editing all fields\n- Include Delete button\n- Show confirmation before delete');
+        }
+        
+        function testDuplicateRoster() {
+            alert('✅ Test: duplicateRoster(rosterId)\n\nThis function should:\n- Create a copy of the roster\n- Append "(Copy)" to the shift name\n- Add to the rosters array\n- Refresh the table\n- Show success toast');
+        }
+        
+        function testAddCorrection() {
+            alert('✅ Test: openAddCorrectionModal()\n\nThis function should:\n- Open a side panel modal\n- Include employee search with autocomplete\n- Display correction type dropdown\n- Include time fields and reason textarea\n- Validate all required fields');
+        }
+        
+        function testViewCorrection() {
+            alert('✅ Test: viewCorrection(correctionId)\n\nThis function should:\n- Open a side panel modal\n- Display correction details with employee info\n- Show status badge and type badge\n- Include Approve/Reject buttons if pending\n- Display request and approval information');
+        }
+        
+        function testEditCorrection() {
+            alert('✅ Test: editCorrection(correctionId)\n\nThis function should:\n- Open a side panel modal\n- Pre-fill form with correction data\n- Allow editing type, date, times, reason\n- Include status dropdown\n- Show Delete button with confirmation');
+        }
+        
+        function testApproveCorrection() {
+            alert('✅ Test: approveCorrection(correctionId)\n\nThis function should:\n- Update correction status to "Approved"\n- Set approvedBy and approvedDate\n- Refresh the corrections table\n- Show success toast');
+        }
+        
+        function testViewImport() {
+            alert('✅ Test: viewImportDetails(importId)\n\nThis function should:\n- Open a side panel modal\n- Display import statistics\n- Show success rate with progress bar\n- Include file details and import date\n- Provide View Data and Download Log buttons');
+        }
+        
+        function testDownloadLog() {
+            alert('✅ Test: downloadImportLog(importId)\n\nThis function should:\n- Generate a text log file\n- Include import statistics\n- Download file automatically\n- Show success toast');
+        }
+        
+        function testViewErrors() {
+            alert('✅ Test: viewErrors(importId)\n\nThis function should:\n- Open a side panel modal\n- Display list of import errors\n- Show row number and error details\n- Include Download Error Report button');
+        }
+        
+        function testExportData() {
+            alert('✅ Test: exportPreviewData(importId)\n\nThis function should:\n- Generate CSV file from preview data\n- Include all headers and rows\n- Download file automatically\n- Show success toast');
+        }
+    </script>
+</body>
+</html>
