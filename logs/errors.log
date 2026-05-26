@@ -628,3 +628,87 @@
     "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(323): PDO->query('SELECT d.*, c.n...')\n#1 {main}"
 }
 --------------------------------------------------------------------------------
+[2026-05-26 02:46:40] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-26 02:46:44] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-26 02:46:49] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-26 02:46:53] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-26 02:46:57] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-26 02:47:04] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-26 02:47:13] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-26 02:47:23] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-26 02:47:31] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-26 02:47:41] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-26 02:47:45] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------
+[2026-05-26 02:47:49] [ERROR] Database connection failed. Please check your MySQL configuration or run setup_database.php
+{
+    "file": "C:\\xampp\\htdocs\\3ME\\config\\database.php",
+    "line": 56,
+    "trace": "#0 C:\\xampp\\htdocs\\3ME\\api\\settings\\settings_api.php(76): Database->getConnection()\n#1 {main}"
+}
+--------------------------------------------------------------------------------

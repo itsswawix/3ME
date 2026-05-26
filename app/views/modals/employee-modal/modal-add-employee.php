@@ -584,6 +584,8 @@ function openWebcamCapture() {
                 width: 100%;
                 height: auto;
                 display: block;
+                transform: scaleX(-1);
+                -webkit-transform: scaleX(-1);
             }
             #webcamCanvas {
                 display: none;
@@ -747,9 +749,13 @@ function capturePhoto() {
     canvas.width = video.videoWidth;
     canvas.height = video.videoHeight;
     
-    // Draw video frame to canvas
+    // Draw video frame to canvas (mirrored to match the video element's CSS transform)
     const ctx = canvas.getContext('2d');
+    ctx.save();
+    ctx.translate(canvas.width, 0);
+    ctx.scale(-1, 1);
     ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+    ctx.restore();
     
     // Convert to base64
     const photoData = canvas.toDataURL('image/jpeg', 0.9);
